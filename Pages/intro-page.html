@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--meta viewport berättar för webben hur den ska visa innehållet i olika skärmstorlekar-->
+        <title>Personlig sida</title>
+        <!--1.title ger hemsidan sin webplats titel som visas högst upp i webbläsaren-->
+        <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+        <!--Link rel icon lägger till en icon bredvid websidans namn. Den syns också när sidan sparas som bokmärke-->
+
+    </head>
+    <body>
+       <main>
+        <!--Början på intro-->
+        <h1 id="start">Välkommen till min hemsida!</h1>
+        <!--2.h1 står för rubrik1 och är den viktigaste rubriken i dokumentet, därför är den störst-->
+        <!--id gör så att jag kan skapa en länk inom dokumentet som är kopplad till ett specifikt element-->
+        <h3>Innehåll</h3>
+        <!--9.Ul berättar att det följande innehållet är en onumrerad lista och li definierar varje ny listpunkt-->
+        <!--4.a identifierar en länk-->
+        <ul>
+            <li> <a href="#intro"> Introduktion</a></li>
+            <li> <a href="#familj"> Familj</a></li>
+            <li> <a href="#husdjur"> Husdjur</a></li>
+            <li> <a href="#intressen"> Intressen</a></li>
+            <li> <a href="#analys"> Analys</a></li>
+        </ul>
+        
+        <h2 id="intro">Introduktion</h2>
+        <p>
+            Hejsan, jag heter Hanna Hållinder! 
+            Jag är en nörd som älskar att rita, läsa, spela spel och en massa andra saker. <br> 
+            <!--Genom dokumentet använder jag br för att ge hemsidan ett mer pleasing utseende.-->
+            Jag bor i Uppsala som inneboende. Jag är diagnostiserad med <strong>Asperger</strong> och <strong>ADD</strong> sedan 2014. <br>            <!--6.strong är till för att markera något som viktigt. Screen readers kommer läsa upp det med eftertryck.-->
+            Det har inte alltid varit det lättaste att leva med, varken för mig eller de runt omkring, <br>
+            men allt eftersom tiden går, lär jag mig mer om mig själv och hur jag ska hantera tuffa situationer. <br>
+            Det går inte alltid framåt men med den fantastiska hjälp jag har från min familj ska det nog gå bra.
+        </p>
+        <!--3.p är elementet för paragraf och identifierar en grupp meningar.-->
+        <!--Slut på intro-->
+    
+        <!--Början på huvud text-->
+        <h2 id="familj">Familj</h2>
+        <p>
+            Min familj består av min mamma och pappa, som är skilda, och min storasyster. <br>
+            Min mamma gifte om sig förra året med en jättefin man som har tre barn från ett tidigare äktenskap. <br>
+
+        </p>
+        
+        <h2 id="husdjur">Husdjur</h2>
+        <p>
+            <!--7.em är till för att betona något. Screen readers kommer läsa upp det med eftertryck-->
+            Jag <em>älskar</em> djur och har haft både kanin, hamster och katt under min uppväxt. <br>
+            Mitt senaste husdjur var en katt-gentleman vid namn Ravis som blev 17 år gammal och jag saknar honom väldigt mycket. <br>
+            <img src="../Images/ravis_liggande1.jpg" alt="En katt som ligger och sover" width="1000" height="750"> <br>
+            <!--5.img identifierar en bild. src är vart bilden är och alt hjälper till om bilden inte kan laddas in eller om användaren har en screen reader-->
+            Han var lite av en datornörd och älskade att vara med på Zoom möten och gå runt på tangentbordet. <br>
+            En gång lyckades han till och med att ställa om alla mina tangentknappars funktioner. <br>
+            Vet fortfarande inte hur han lyckades med detta men lyckligtvis var det inte permanent.
+        </p>
+       
+        <h2 id="intressen">Intressen</h2>
+        <p>
+            För att fylla min fritid brukar jag göra självstudier i olika medium av konst.
+            <br>
+            Favorit materialen hittils är:
+            <ul>
+                <li>Gouache</li>
+                <li>Akvarell</li>
+                <li>Färgpennor</li>
+            </ul>
+            De konstverk jag är mest nöjd med hittils är en mixed media målning jag gjorde förra året av en bild tagen på min mammas bröllop.
+            Samt en akvarell målning som sträcker sig över två A5 sidor. Här nedan kan du se båda bilderna jag pratar om, men om du vill se några flera
+            plus några riktigt gamla verk kan du besöka min <a href="https://www.deviantart.com/double-h-h" target="_blank" title="DeviantArt">DeviantArt profil</a>.
+        <!--target="_blank" berättar för webben att länken ska öppnas i en ny flik.-->
+        </p>
+
+        <figure>
+            <img src="../Images/bröllop_rita1.jpg" alt="Målning av ett brudpar som kysser varandra" width="933" height="638">
+            <figcaption>Min målning av en bild från min mammas bröllop</figcaption>
+        </figure>
+        <!--Figure omringar vad jag vill ge en undertext/beskrivande text till och figcaption är den texten-->
+        <figure>
+            <img src="../Images/red_riding_hood1.jpg" alt="Målning av en flicka som sitter i en skog, upplyst av en lykta" width="1000" height="358">
+            <figcaption>Min målning i akvarell</figcaption>
+        </figure>
+        <p>
+            Jag älskar att baka och blir nästan lika lycklig av att bjuda på bakverk som att äta de själv, <i>nästan</i>. <br>
+            Då jag är mjölkproteinallergiker är det väldigt svårt att hitta kakor att köpa, så jag ser till att ha frysen fylld med flera olika godsaker.<br>
+            För det finns väl inget som kan slå en kopp te och en riktigt god kaka?
+        </p>
+    </main> 
+    <!--Slut på huvud text-->
+    <footer>
+        <h2 id="analys">Analys</h2>
+        <p>
+            Här hittar du en länk till min <a href="./analys.html">analys av ICA.se</a>
+        </p>
+    
+    <a href="#start">Tillbaka till toppen</a>
+    </footer>
+    </body>
+</html>
